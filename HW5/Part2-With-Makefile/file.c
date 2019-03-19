@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-int countString(const char *fileName, char *str);
-int countEmptyLines(const char* fileName);
+#include <stdbool.h>
+#include <ctype.h>
+#include "fileTest.h"
 
 int main(int argc, char *argv[]){
 
@@ -21,25 +21,3 @@ int main(int argc, char *argv[]){
    return 0;
 
 }
-
-int countString(const char* fileName, char *str){
-    
-    int word_count = 0;
-
-    // insert your code here!
-
-    return word_count;
-}
-
-
-
-int countEmptyLines(const char *fileName){
-    
-    int emptyLine = 0;
-    
-    // Insert your code here!
-
-    return emptyLine;
-}
-
-
